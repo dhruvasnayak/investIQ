@@ -1,0 +1,61 @@
+.head-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.cmptitle{
+    color: rgba(66, 85, 206, 0.87);
+    margin-top: 5px;
+    font-size: 35px;
+}
+.plot-container{
+    display: flex;
+    justify-content: center;
+
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 2px solid #4a98ddc3;
+    border-radius: 5px;
+    padding: 2px;
+    width: 300px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-bar input::placeholder {
+    color: #888;
+  }
+  
+  .search-bar:hover {
+    background-color: #e0e0e0;
+  }
+
+.custom-button {
+  margin-top: 7px;
+  width: 200px;
+  position: relative;
+  left:900px;
+  background-color: rgba(235, 49, 80, 0.886);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #2779bd;
+}
+
+  
